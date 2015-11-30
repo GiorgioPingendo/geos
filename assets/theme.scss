@@ -27,9 +27,9 @@ $gray-light : #818a91 !default;
 $gray-lighter : #eceeef !default;
 $gray-lightest : #f7f7f9 !default;
 
-$brand-primary : #0275d8 !default;
+$brand-primary : #39CCCC;
 $brand-success : #5cb85c !default;
-$brand-info : #5bc0de !default;
+$brand-info : #1A3959;
 $brand-warning : #f0ad4e !default;
 $brand-danger : #d9534f !default;
 
@@ -62,8 +62,8 @@ $border-width : 1px !default;
 //
 // Settings for the `<body>` element.
 
-$body-bg : #fff !default;
-$body-color : #373a3c !default;
+$body-bg : white;
+$body-color : #333;
 
 
 // Links
@@ -152,7 +152,7 @@ $display4-weight : 300 !default;
 $line-height : 1.5 !default;
 
 $headings-margin-bottom : ($spacer / 2) !default;
-$headings-font-family : Trebuchet MS;
+$headings-font-family : "Open Sans";
 $headings-font-weight : 500 !default;
 $headings-line-height : 1.1 !default;
 $headings-color : inherit !default;
@@ -213,7 +213,7 @@ $btn-padding-x : 1rem !default;
 $btn-padding-y : .375rem !default;
 $btn-font-weight : normal !default;
 
-$btn-primary-color : #fff !default;
+$btn-primary-color : white;
 $btn-primary-bg : $brand-primary !default;
 $btn-primary-border : $btn-primary-bg !default;
 
@@ -221,7 +221,7 @@ $btn-secondary-color : $gray-dark !default;
 $btn-secondary-bg : #fff !default;
 $btn-secondary-border : #ccc !default;
 
-$btn-info-color : #fff !default;
+$btn-info-color : white;
 $btn-info-bg : $brand-info !default;
 $btn-info-border : $btn-info-bg !default;
 
