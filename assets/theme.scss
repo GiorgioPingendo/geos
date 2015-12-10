@@ -637,12 +637,9 @@ body {
   border-bottom: 2px solid $brand-primary;
   position:fixed;
   top:0px;
-  z-index:1;
+  z-index:10000;
   width:100%;
   background-color:white;
-  .logo {
-    padding-top:15px;
-  }
 }  
 
 .carousel-indicators li {
