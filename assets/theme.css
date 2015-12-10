@@ -4085,7 +4085,7 @@ output {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Open Sans";
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -4736,3 +4736,24 @@ a.bg-danger:hover {
   .section-fill-height .container {
     width: 72.25rem;
     max-width: 72.25rem; } }
+
+body {
+  padding-top: 60px; }
+
+#nav {
+  border-bottom: 2px solid #39CCCC;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  background-color: white; }
+  #nav .logo {
+    padding-top: 15px; }
+
+.carousel-indicators li {
+  color: black !important;
+  background-color: #777; }
+
+.carousel-indicators li.active {
+  color: black !important;
+  background-color: #222; }
