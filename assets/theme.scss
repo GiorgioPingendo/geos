@@ -39,7 +39,7 @@ $brand-danger : #d9534f !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-flex : false !default;
+$enable-flex : true !default;
 $enable-rounded : true !default;
 $enable-shadows : false !default;
 $enable-gradients : false !default;
@@ -629,25 +629,30 @@ $pre-scrollable-max-height : 340px !default;
 @import 'http://v4.pingendo.com/assets/bootstrap/scss/bootstrap';
 @import 'http://v4.pingendo.com/assets/bootstrap/scss/pingendo-custom';
 
-
-body {
-  padding-top: 60px;
-}
-#nav {
-  border-bottom: 2px solid $brand-primary;
-  position:fixed;
-  top:0px;
-  z-index:10000;
-  width:100%;
-  background-color:white;
-}  
-
-.carousel-indicators li {
-  color: black !important;
-  background-color:#777;               
-}
-
-.carousel-indicators li.active {
-  color: black !important;
-  background-color:#222;
-}
+.logo {
+      margin-top: 20px;
+      font-weight: 200;
+    }
+    
+    body {
+      padding-top: 70px;
+    }
+    
+    #nav {
+      border-bottom: 2px solid #7FDBFF;
+      position: fixed;
+      top: 0px;
+      z-index: 10000;
+      width: 100%;
+      background-color: white;
+    }
+    
+    .carousel-indicators li {
+      color: black !important;
+      background-color: #777;
+    }
+    
+    .carousel-indicators li.active {
+      color: black !important;
+      background-color: #222;
+    }
